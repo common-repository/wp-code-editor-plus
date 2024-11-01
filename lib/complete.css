@@ -1,0 +1,23 @@
+.completions {
+	position: absolute;
+	z-index: 995;
+	overflow: hidden;
+	-webkit-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+	-moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+	box-shadow: 2px 3px 5px rgba(0,0,0,.2);
+}
+.completions select {
+	background: #fafafa;
+	outline: none;
+	border: none;
+	padding: 0 !important;
+	margin: 0;
+	font-family: monospace;
+	height: auto !important;
+	position: relative;
+	z-index: 990;
+}
+.CodeMirror {
+	border: 1px solid #eee;
+}
+
